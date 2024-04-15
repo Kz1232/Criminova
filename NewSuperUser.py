@@ -20,7 +20,11 @@ with open(IMAGE_PATH, 'rb') as img_file:
 conn = db.connect_db()
 cur=conn.cursor()
 cur.execute("SELECT username from authorized where role='Administrator'")
-exist=cur.fetchone()[0]
+user=cur.fetchone()
+
+exist=None
+if user:
+    exist = user[0]
 
 
 def create_superUser():

@@ -11,9 +11,9 @@ PROJECT="CrimeNetX"
 
 
 DATABASE_CONFIG= {
-    'database': 'Criminova',  
+    'database': 'crimenetx',  
     'user': 'postgres',
-    'password': 'ahjd',
+    'password': 'root',
     'host': 'localhost',
     'port': '5432' 
 }
