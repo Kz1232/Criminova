@@ -8,3 +8,5 @@ streamlit_folium
 pandas
 numpy
 fuzzywuzzy
+plotly
+
